@@ -1,0 +1,24 @@
+<section class="tab scout {{tabs.scout.cssClass}}" data-tab="{{tabs.scout.id}}" data-group="{{tabs.scout.group}}">
+    {{!-- Hidden inputs to reflect the sheet class --}}
+    <input type="hidden" id="system.details.sheetClass" name="system.details.sheetClass" value="Scout" data-dtype="String"/>
+    <input type="hidden" id="system.details.critRange" name="system.details.critRange" value="20" data-dtype="Number"/>
+    
+    <div class="grid-container">
+        <div class="grid-col-span-12 dark-border">
+            <div class="box-title">{{localize "Scout.ScoutAbilities"}}</div>
+            <div class="grid-tpl-two grid-row-gap-8 p-5">
+                {{> "modules/xcc-classes/templates/actor-partial-mojo.html"}}
+                {{> "modules/xcc-classes/templates/actor-partial-fame.html"}}
+
+                <ul class="class-note flexcol">
+                    <li>
+                        {{localize "Scout.Stealth"}}
+                        <ul>
+                            <li>{{localize "Scout.StealthDesc"}}</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>

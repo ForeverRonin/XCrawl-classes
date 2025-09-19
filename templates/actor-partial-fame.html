@@ -1,0 +1,16 @@
+<!-- Fame Tracking Partial -->
+<div class="grid-tpl-max-auto grid-col-span-2" style="align-items: center;">
+    <label for="system.class.fame.value">
+        {{localize "XCC.Fame"}}
+    </label>
+    <div class="grid-tpl-min-auto grid-col-gap-5">
+        <input type="number" id="system.class.fame.value" name="system.class.fame.value"
+               value="{{system.class.fame.value}}" data-dtype="Number" min="0"/>
+        <span>/</span>
+        <input type="number" id="system.class.fame.max" name="system.class.fame.max"
+               value="{{system.class.fame.max}}" data-dtype="Number" min="0"/>
+    </div>
+</div>
+<div class="grid-col-span-2">
+    <p class="data-font">{{localize "XCC.FameDesc"}}</p>
+</div>

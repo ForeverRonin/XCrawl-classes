@@ -1,7 +1,7 @@
 {
-  "id": "mcc-classes",
-  "title": "MCC Sheets",
-  "description": "Sheets for Mutant Crawl Classics in FoundryVTT!",
+  "id": "xcc-classes",
+  "title": "XCC Classes",
+  "description": "Character sheets for X-Crawl Classics classes in FoundryVTT!",
   "version": "1.0.0",
   "compatibility": {
     "minimum": "13",
@@ -10,13 +10,7 @@
   },
   "authors": [
     {
-      "name": "DCC Foundry Volunteer Team (https://discord.gg/2PR9YH9)"
-    },
-    {
-      "name": "Steve Barnett"
-    },
-    {
-      "name": "Christian Ovsenik"
+      "name": "ForeverRonin"
     }
   ],
   "relationships": {
@@ -28,7 +22,7 @@
     ]
   },
   "esmodules": [
-    "module/mcc-classes.js"
+    "module/xcc-classes.js"
   ],
   "flags": {
     "hotReload": {
@@ -36,7 +30,7 @@
     }
   },
   "styles": [
-    "styles/mcc.css"
+    "styles/xcc.css"
   ],
   "languages": [
     {
@@ -45,8 +39,8 @@
       "path": "lang/en.json"
     }
   ],
-  "url": "https://github.com/algnc/mcc-classes",
-  "manifest": "https://raw.githubusercontent.com/foundryvtt-dcc/mcc-classes/main/module.json",
-  "download": "https://github.com/foundryvtt-dcc/mcc-classes/archive/main.zip",
+  "url": "https://github.com/ForeverRonin/XCrawl-classes",
+  "manifest": "https://raw.githubusercontent.com/ForeverRonin/XCrawl-classes/main/module.json",
+  "download": "https://github.com/ForeverRonin/XCrawl-classes/archive/main.zip",
   "license": "LICENSE.txt"
 }

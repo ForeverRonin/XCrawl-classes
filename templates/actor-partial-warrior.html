@@ -1,0 +1,24 @@
+<section class="tab warrior {{tabs.warrior.cssClass}}" data-tab="{{tabs.warrior.id}}" data-group="{{tabs.warrior.group}}">
+    {{!-- Hidden inputs to reflect the sheet class --}}
+    <input type="hidden" id="system.details.sheetClass" name="system.details.sheetClass" value="Warrior" data-dtype="String"/>
+    <input type="hidden" id="system.details.critRange" name="system.details.critRange" value="20" data-dtype="Number"/>
+    
+    <div class="grid-container">
+        <div class="grid-col-span-12 dark-border">
+            <div class="box-title">{{localize "Warrior.WarriorAbilities"}}</div>
+            <div class="grid-tpl-two grid-row-gap-8 p-5">
+                {{> "modules/xcc-classes/templates/actor-partial-mojo.html"}}
+                {{> "modules/xcc-classes/templates/actor-partial-fame.html"}}
+
+                <ul class="class-note flexcol">
+                    <li>
+                        {{localize "Warrior.CombatProwess"}}
+                        <ul>
+                            <li>{{localize "Warrior.CombatProwessDesc"}}</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
