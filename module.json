@@ -1,7 +1,7 @@
 {
-  "id": "mcc-classes",
-  "title": "MCC Sheets",
-  "description": "Sheets for Mutant Crawl Classics in FoundryVTT!",
+  "id": "xccc-classes",
+  "title": "X-Crawl Classics Classes",
+  "description": "Adds all core X-Crawl Classics classes for Dungeon Crawl Classics",
   "version": "1.0.0",
   "compatibility": {
     "minimum": "13",
@@ -18,6 +18,9 @@
     {
       "name": "Christian Ovsenik"
     }
+    {
+      "name": "Korey DeCampos"
+    },
   ],
   "relationships": {
     "systems": [
@@ -46,7 +49,7 @@
     }
   ],
   "url": "https://github.com/algnc/mcc-classes",
-  "manifest": "https://raw.githubusercontent.com/foundryvtt-dcc/mcc-classes/main/module.json",
-  "download": "https://github.com/foundryvtt-dcc/mcc-classes/archive/main.zip",
+  "manifest": "https://github.com/ForeverRonin/XCrawl-classes/edit/main/module.json",
+  "download": "https://github.com/ForeverRonin/XCrawl-classes/edit/main.zip",
   "license": "LICENSE.txt"
 }
