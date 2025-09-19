@@ -40,8 +40,7 @@ Hooks.once('init', async function () {
 
     // Register shared templates for XCC characters
     const templatePaths = [
-        'modules/xcc-classes/templates/actor-partial-mojo.html',
-        'modules/xcc-classes/templates/actor-partial-fame.html'
+        'modules/xcc-classes/templates/actor-partial-programs.html'
     ]
     loadTemplates(templatePaths)
 })

@@ -7,8 +7,33 @@
         <div class="grid-col-span-12 dark-border">
             <div class="box-title">{{localize "Mystic.MysticAbilities"}}</div>
             <div class="grid-tpl-two grid-row-gap-8 p-5">
-                {{> "modules/xcc-classes/templates/actor-partial-mojo.html"}}
-                {{> "modules/xcc-classes/templates/actor-partial-fame.html"}}
+                <!-- Mojo Resource -->
+                <div class="grid-tpl-max-auto grid-col-span-2" style="align-items: center;">
+                    <label for="system.resources.mojo.value">
+                        {{localize "XCC.Mojo"}}
+                    </label>
+                    <div class="grid-tpl-min-auto grid-col-gap-5">
+                        <input type="number" id="system.resources.mojo.value" name="system.resources.mojo.value"
+                               value="{{system.resources.mojo.value}}" data-dtype="Number" min="0"/>
+                        <span>/</span>
+                        <input type="number" id="system.resources.mojo.max" name="system.resources.mojo.max"
+                               value="{{system.resources.mojo.max}}" data-dtype="Number" min="0"/>
+                    </div>
+                </div>
+
+                <!-- Fame -->
+                <div class="grid-tpl-max-auto grid-col-span-2" style="align-items: center;">
+                    <label for="system.class.fame.value">
+                        {{localize "XCC.Fame"}}
+                    </label>
+                    <div class="grid-tpl-min-auto grid-col-gap-5">
+                        <input type="number" id="system.class.fame.value" name="system.class.fame.value"
+                               value="{{system.class.fame.value}}" data-dtype="Number" min="0"/>
+                        <span>/</span>
+                        <input type="number" id="system.class.fame.max" name="system.class.fame.max"
+                               value="{{system.class.fame.max}}" data-dtype="Number" min="0"/>
+                    </div>
+                </div>
 
                 <ul class="class-note flexcol">
                     <li>

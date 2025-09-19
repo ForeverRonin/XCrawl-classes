@@ -24,6 +24,22 @@
   "esmodules": [
     "module/xcc-classes.js"
   ],
+  "packs": [
+    {
+      "name": "xcc-classes",
+      "label": "XCC Classes",
+      "path": "packs/xcc-classes.db",
+      "type": "Actor",
+      "system": "dcc"
+    },
+    {
+      "name": "xcc-equipment",
+      "label": "XCC Equipment",
+      "path": "packs/xcc-equipment.db",
+      "type": "Item",
+      "system": "dcc"
+    }
+  ],
   "flags": {
     "hotReload": {
       "extensions": ["js", "css", "html", "json"]
